@@ -80,7 +80,7 @@ import requests
 
 # Therefore, the repository root is one level above "scripts".
 
-SCRIPT_DIR = Path(**file**).resolve().parent
+SCRIPT_DIR = Path(_file_).resolve().parent
 PROJECT_DIR = SCRIPT_DIR.parent
 
 INPUT_DIR = PROJECT_DIR / "input"
